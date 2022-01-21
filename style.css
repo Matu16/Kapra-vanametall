@@ -137,8 +137,8 @@ header a h2{
 .hkItem{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
-    margin-bottom: 5px;
+    border-left: 2px solid rgb(0, 122, 192);
+    margin-bottom: 10px;
 }
 
 .hkItem div{
