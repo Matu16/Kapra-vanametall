@@ -60,7 +60,7 @@ body{
 
 header a{
     height: 100%;
-    width: auto;
+    width: 150px;
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -70,7 +70,9 @@ header a{
     margin-bottom: 10px;
     color: black;
     align-items: center;
-    transition: 0.3;
+    transition: 0.2s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 header a h2{
@@ -107,12 +109,12 @@ header a h2{
 }
 
 .hinnakiri{
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     height: fit-content;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 15px;
 }
 
@@ -128,6 +130,8 @@ header a h2{
 .hkItem{
     display: flex;
     flex-direction: row;
+    border: 2px solid black;
+    margin-bottom: 5px;
 }
 
 .hkItem div{
@@ -136,12 +140,12 @@ header a h2{
     min-width: 150px;
     max-width: 500px;
     display: flex;
-    height: 50px;
+    height: fit-content;
     margin: 5px;
 }
 
-.hkdesc{
-    display: flex;
+.hkdesc h3{
+    margin-bottom: 7.5px;
 }
 
 @media(min-width: 1024px){
@@ -163,6 +167,7 @@ header a h2{
     }
 
     header a:hover{
-        background-color: rgb(104, 197, 255);
+        background-color: rgb(40, 40, 40);
+        color: white;
     }
 }
