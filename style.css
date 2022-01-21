@@ -132,6 +132,7 @@ header a h2{
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 15px;
+    display: none;
 }
 
 .hinnakiri-2{
@@ -218,5 +219,13 @@ header a h2{
 
     .logo img{
         height: 100px;
+    }
+
+    .hinnakiri-1{
+        display: flex;
+    }
+
+    .hinnakiri-2{
+    display: none;
     }
 }
