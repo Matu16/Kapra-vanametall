@@ -45,7 +45,14 @@ body{
 .logo{
     background-color: rgb(40, 40, 40);
     width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
     height: 100px;
+    margin: 10px;
 }
 
 .nav-bar-desc{
