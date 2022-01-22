@@ -217,6 +217,79 @@ header a h2{
     margin-bottom: 7.5px;
 }
 
+.yltekst{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
+}
+
+.kopahinnad2{
+    display: none;
+}
+
+.kopatood{
+    display: flex;
+    flex-direction: column;
+}
+
+.kopatood img{
+    height: 250px;
+}
+
+.kopa{
+    margin-left: 25px;
+    margin-top: 2%;
+    
+}
+
+.kopa img{
+    height: 250px;
+    object-fit: contain;
+}
+
+.kopahinnadtel{
+    padding-top: 1%;
+    border: black 1px solid;
+    width: 350px;
+    margin-left: 25px;
+}
+
+.kopalisad{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.taitematerjalide{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.taitematerjalid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.taitematerjalid2{
+    display: none;
+}
+
+.maavara h4{
+    font-size: 15px;
+}
+
+.maavarahind h4{
+    font-size: 15px;
+}
+
+.kmta h4{
+    font-size: 15px;
+
 .ELPraht{
     width: 100%;
 }
@@ -274,5 +347,68 @@ header a h2{
 
     .hinnakiri-2, #mob{
     display: none;
+    }
+
+    .yltekst h2{
+        font-size: 36px;
+    }
+    
+    .kopalisad h4{
+        font-size: 24px;
+    }
+
+    .kopahinnad2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kopahinnad{
+        padding-top: 1%;
+        border: black 1px solid;
+        width:500px;
+        margin-left: 25px;
+        font-size: 24px;
+    }
+
+    .kopahinnadtel{
+        display: none;
+    }
+
+    .taitematerjalide h3{
+        font-size: 36px;
+        margin-left: 25px;
+    }
+
+    .taitematerjalid2{
+        display: flex;
+        font-size: 24px;
+        margin-left: 25px;
+        justify-content: flex-start;
+    }
+
+    .maavara2{
+        font-size: 24px;
+    }
+
+    .maavarahind2{
+        margin-left: 10px;
+    }
+
+    .kmta2{
+        margin-left: 10px;
+    }
+
+    .kmtaalus2{
+        font-size: 24px;
+        margin-left: 25px;
+    }
+
+    .taitematerjalid{
+        display: none;
+    }
+
+    .kopa img{
+        height: 500px;
+        object-fit: contain;
     }
 }
