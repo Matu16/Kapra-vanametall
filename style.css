@@ -100,6 +100,10 @@ header a h2{
     height: 25px;
 }
 
+.spacer1{
+    height: 100px;
+}
+
 .column{
     display: flex;
     flex-direction: column;
@@ -123,6 +127,18 @@ header a h2{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+
+#desc{
+    display: none;
+    flex-direction: column;
+}
+
+#mob{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .hinnakiri-1{
     display: flex;
@@ -194,6 +210,30 @@ header a h2{
     margin-bottom: 7.5px;
 }
 
+.ELPraht{
+    width: 100%;
+}
+
+.ELItem{
+    display: flex;
+    flex-direction: col;
+    border-left: 2px solid rgb(0, 122, 192);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.ELItem div{
+    width: fit-content;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 500px;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 20px;
+}
+
 @media(min-width: 1024px){
     .burger{
         display: none;
@@ -221,11 +261,11 @@ header a h2{
         height: 100px;
     }
 
-    .hinnakiri-1{
+    .hinnakiri-1, #desc{
         display: flex;
     }
 
-    .hinnakiri-2{
+    .hinnakiri-2, #mob{
     display: none;
     }
 }
