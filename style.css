@@ -149,7 +149,7 @@ header a h2{
 .contact{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 300px;
     margin: 20px;
 }
 
