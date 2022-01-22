@@ -128,6 +128,18 @@ header a h2{
     border-bottom-right-radius: 25px;
 }
 
+#desc{
+    display: none;
+    flex-direction: column;
+}
+
+#mob{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .hinnakiri-1{
     display: flex;
     flex-direction: column;
@@ -204,7 +216,7 @@ header a h2{
 
 .ELItem{
     display: flex;
-    flex-direction: row;
+    flex-direction: col;
     border-left: 2px solid rgb(0, 122, 192);
     margin-bottom: 20px;
     margin-left: 10px;
@@ -249,11 +261,11 @@ header a h2{
         height: 100px;
     }
 
-    .hinnakiri-1{
+    .hinnakiri-1, #desc{
         display: flex;
     }
 
-    .hinnakiri-2{
+    .hinnakiri-2, #mob{
     display: none;
     }
 }
