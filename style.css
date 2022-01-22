@@ -194,6 +194,33 @@ header a h2{
     margin-bottom: 7.5px;
 }
 
+.yltekst{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
+}
+
+.kopatood{
+    display: flex;
+    flex-direction: column;
+}
+
+.kopatood img{
+    height: 250px;
+}
+
+.kopa{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.kopahinnad{
+    padding-top: 1%;
+    border: black 1px solid;
+}
+
 @media(min-width: 1024px){
     .burger{
         display: none;
@@ -228,4 +255,6 @@ header a h2{
     .hinnakiri-2{
     display: none;
     }
+
+    
 }
