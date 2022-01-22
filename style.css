@@ -217,7 +217,6 @@ header a h2{
     margin-bottom: 7.5px;
 }
 
-
 .yltekst{
     height: fit-content;
     width: fit-content;
@@ -313,7 +312,6 @@ header a h2{
     flex-direction: column;
     margin: 5px;
     margin-top: 20px;
-
 }
 
 @media(min-width: 1024px){
