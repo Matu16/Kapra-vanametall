@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Text styles */
+.regular{
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.alert{
+    color: red;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.burger{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.burger div{
+    height: 8px;
+    width: 40px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.logo{
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 60px;
+    margin: 10px;
+}
+
+.open-T{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 118, 118);
+    border: 3px solid black;
+    width: fit-content;
+}
+
+.nav-bar-desc{
+    height: 100px;
+    background-color: rgb(0, 173, 179);
+    display: flex;
+    justify-content: center;
+    display: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+header a{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    align-items: center;
+    transition: 0.2s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+header a h2{
+    margin: 15px;
+}
+
+/* Detailing */
+.spacer{
+    height: 25px;
+}
+
+.spacer1{
+    height: 100px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.Vert-center{
+    align-items: center;
+}
+
+.border{
+    border: 1px solid rgb(40, 40, 40);
+}
+
+.nav-bar-mob{
+    height: fit-content;
+    background-color: rgb(0, 173, 179);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#desc{
+    display: none;
+    flex-direction: column;
+}
+
+#mob{
+    display: flex;
+    flex-direction: column;
+}
+
+.map{
+    border: 3px solid black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 20px;
+}
+
+.contact input{
+    margin: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: #089494;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.contact textarea{
+    margin: 5px;
+    border-radius: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    background-color: #089494;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+}
+
+.contact button{
+    border-radius: 10px;
+    height: 40px;
+    background-color: #089494;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    width: 300px;
+}
+
+.map iframe{
+    border-radius: 15px;
+}
+
+.hinnakiri-1{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: none;
+}
+
+.hinnakiri-2{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.hkNB{
+    display: flex;
+    flex-direction: row;
+}
+
+.hkNB h3{
+    margin: 5px;
+}
+
+.hkItem-2{
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid rgb(0, 122, 192);
+    margin-bottom: 20px;
+}
+
+.hkItem-2 div{
+    width: fit-content;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 500px;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.hkItem{
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid rgb(0, 122, 192);
+    margin-bottom: 10px;
+}
+
+.hkItem div{
+    width: fit-content;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 500px;
+    display: flex;
+    height: fit-content;
+    margin: 5px;
+}
+
+.hkdesc h3{
+    margin-bottom: 7.5px;
+}
+
+.ELPraht{
+    width: 100%;
+}
+
+.ELItem{
+    display: flex;
+    flex-direction: col;
+    border-left: 2px solid rgb(0, 122, 192);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.ELItem div{
+    width: fit-content;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 500px;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.yltekst{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
+}
+
+.kopahinnad2{
+    display: none;
+}
+
+.kopatood{
+    display: flex;
+    flex-direction: column;
+}
+
+.kopatood img{
+    height: 250px;
+}
+
+.kopa{
+    margin-left: 10px;
+    margin-top: 2%;
+    
+}
+
+.kopa img{
+    height: 250px;
+    object-fit: contain;
+}
+
+.kopahinnadtel{
+    padding-top: 1%;
+    border: black 1px solid;
+    width: 350px;
+    margin-left: 10px;
+}
+
+.kopalisad{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.taitematerjalide{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.taitematerjalid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.taitematerjalid2{
+    display: none;
+}
+
+.maavara h4{
+    font-size: 15px;
+}
+
+.maavarahind h4{
+    font-size: 15px;
+}
+
+.kmta h4{
+    font-size: 15px;
+}
+
+.MiniInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.KM{
+    margin: 10px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 108, 108);
+}
+
+@media(min-width: 1024px){
+    .burger{
+        display: none;
+    }
+
+    .KM{
+        margin: 10px;
+        width: 800px;
+    }
+
+    .MiniInfo{
+        flex-direction: row;
+    }
+
+    .nav-bar-desc{
+        display: flex;
+    }
+
+    .nav-bar-mob{
+        display: none;
+    }
+
+    header a{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    header a:hover{
+        background-color: rgb(40, 40, 40);
+        color: white;
+    }
+
+    .logo img{
+        height: 100px;
+    }
+
+    .hinnakiri-1, #desc{
+        display: flex;
+    }
+
+    .hinnakiri-2, #mob{
+    display: none;
+    }
+
+    .yltekst h2{
+        font-size: 36px;
+    }
+    
+    .kopalisad h4{
+        font-size: 24px;
+    }
+
+    .kopahinnad2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kopahinnad{
+        padding-top: 1%;
+        border: black 1px solid;
+        width:500px;
+        margin-left: 25px;
+        font-size: 24px;
+    }
+
+    .kopahinnadtel{
+        display: none;
+    }
+
+    .taitematerjalide h3{
+        font-size: 36px;
+        margin-left: 25px;
+    }
+
+    .taitematerjalid2{
+        display: flex;
+        font-size: 24px;
+        margin-left: 25px;
+        justify-content: flex-start;
+    }
+
+    .maavara2{
+        font-size: 24px;
+    }
+
+    .maavarahind2{
+        margin-left: 10px;
+    }
+
+    .kmta2{
+        margin-left: 10px;
+    }
+
+    .kmtaalus2{
+        font-size: 24px;
+        margin-left: 25px;
+    }
+
+    .taitematerjalid{
+        display: none;
+    }
+
+    .kopa img{
+        height: 500px;
+        object-fit: contain;
+    }
+
+    .contact textarea{
+        margin: 5px;
+        border-radius: 10px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 5px;
+        background-color: #089494;
+        color: white;
+        font-size: 20px;
+        width: 600px;
+    } 
+
+    .contact button{
+        width: 600px;
+    }
+}
