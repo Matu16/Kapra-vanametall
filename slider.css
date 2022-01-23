@@ -708,40 +708,4 @@ ul {
   .section__action__container {
     width: 50%;
   }
-
-  @media screen and (max-width: 1024px){
-    .section {
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-    }
-    
-    .section.one {
-      background-image: url(pictures/Info.jpg);
-    }
-    
-    .section.two {
-      background-image: url(pictures/romu.jpg);
-    }
-    
-    .section.three {
-      background-image: url(pictures/Danger.jpg);
-    }
-    
-    .section.four {
-      background-image: url(pictures/Jaatmed.jpg);
-    }
-    
-    .section.five {
-      background-image: url(pictures/jcb.jpg);
-    }
-    
-    .section.six {
-      background-image: url(pictures/Galerii.jpg);
-    }
-    
-    .section.seven {
-      background-image: url(https://thatanjan.github.io/tesla-clone-yt/media/7.avif);
-    }
-  }
 }
