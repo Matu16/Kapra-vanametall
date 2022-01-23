@@ -246,7 +246,6 @@ header a h2{
     flex-direction: row;
     border-left: 2px solid rgb(0, 122, 192);
     margin-bottom: 20px;
-    overflow-x: hidden;
     margin-left: 5px;
 }
 
@@ -258,6 +257,11 @@ header a h2{
     display: flex;
     height: fit-content;
     margin-bottom: 10px;
+}
+
+.hkItem img{
+    object-fit: contain;
+    height: 100px;
 }
 
 .hkdesc h3{

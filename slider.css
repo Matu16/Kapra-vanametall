@@ -391,27 +391,27 @@ ul {
 }
 
 .section.one {
-  background-image: url(pictures/Info.jpg);
+  background-image: url(slider_pictures/);
 }
 
 .section.two {
-  background-image: url(pictures/romu.jpg);
+  background-image: url(slider_pictures/romu.jpg);
 }
 
 .section.three {
-  background-image: url(pictures/Danger.jpg);
+  background-image: url(slider_pictures/Danger.jpg);
 }
 
 .section.four {
-  background-image: url(pictures/Jaatmed.jpg);
+  background-image: url(slider_pictures/Jaatmed.jpg);
 }
 
 .section.five {
-  background-image: url(pictures/jcb.jpg);
+  background-image: url(slider_pictures/cat2.jpg);
 }
 
 .section.six {
-  background-image: url(pictures/Galerii.jpg);
+  background-image: url(slider_pictures/Galerii.jpg);
 }
 
 .section.seven {
