@@ -375,8 +375,5 @@ header a h2{
         margin-bottom: 10px;
     }
 
-    .hkItem img{
-        object-fit: contain;
-        height: 120px;
-    }
+    
 }
