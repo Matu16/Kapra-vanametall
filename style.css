@@ -34,6 +34,7 @@ body{
     top: 10px;
     height: fit-content;
     width: fit-content;
+    display: none;
 }
 
 .burger div{
@@ -45,7 +46,7 @@ body{
 }
 
 .logo{
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(0, 122, 192);
     width: 100%;
     height: fit-content;
     display: flex;
@@ -160,10 +161,11 @@ header a h2{
     border-radius: 10px;
     height: 30px;
     width: 200px;
-    background-color: #089494;
+    background-color: rgb(0, 122, 192);
     color: white;
     padding: 5px;
     font-size: 17px;
+    
 }
 
 .contact textarea{
@@ -171,7 +173,7 @@ header a h2{
     border-radius: 10px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 5px;
-    background-color: #089494;
+    background-color: rgb(0, 122, 192);
     color: white;
     font-size: 20px;
     width: 300px;
@@ -180,11 +182,16 @@ header a h2{
 .contact button{
     border-radius: 10px;
     height: 40px;
-    background-color: #089494;
+    background-color: rgb(0, 122, 192);
     color: white;
     font-size: 20px;
     margin: 5px;
     width: 300px;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.6;
 }
 
 .map iframe{
@@ -306,6 +313,25 @@ header a h2{
     background-color: rgb(255, 108, 108);
 }
 
+.lajad{
+    margin: 10px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(0, 122, 192);
+}
+
+.kajad{
+    margin: 10px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 108, 108);
+    display: none;
+}
+
 .push2 {
     margin-left: -25%;
 }
@@ -358,7 +384,7 @@ header a h2{
         border-radius: 10px;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         padding: 5px;
-        background-color: #089494;
+        background-color: rgb(0, 122, 192);
         color: white;
         font-size: 20px;
         width: 600px;
@@ -366,6 +392,7 @@ header a h2{
 
     .contact button{
         width: 600px;
+        background-color: rgb(0, 122, 192);
     }
 
     .hkItem{
