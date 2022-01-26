@@ -438,7 +438,6 @@ ul {
 .section__content__subtitle {
   font-size: 1.5rem;
   font-weight: 500;
-  display: none;
 }
 
 .section__content__subtitle a {
@@ -493,18 +492,19 @@ ul {
   z-index: 5;
   display: flex;
   justify-content: space-between;
-  display: none;
 }
 
 .header__middle {
   display: flex;
   align-items: center;
+  display: none;
 }
 
 .header__left {
   display: block;
   overflow: hidden;
   padding: 0 2rem;
+  display: none;
 }
 
 .header__logo {
@@ -688,7 +688,7 @@ ul {
   }
 
   .link__in__middle {
-    display: none;
+    display: flex;
   }
 
   .section__action__container {
