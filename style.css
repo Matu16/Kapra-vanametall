@@ -24,6 +24,11 @@ body{
     color: red;
 }
 
+.boldalert{
+    font-weight: bold;
+    color: red;
+}
+
 .italic{
     font-style: italic;
 }
@@ -335,6 +340,7 @@ header a h2{
 .push2 {
     margin-left: -25%;
 }
+
 @media(min-width: 1024px){
     .burger{
         display: none;
