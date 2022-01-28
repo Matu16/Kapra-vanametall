@@ -212,6 +212,7 @@ header a h2{
     margin-bottom: 10px;
     border-radius: 15px;
     display: none;
+
 }
 
 .hinnakiri-2{
@@ -256,7 +257,6 @@ header a h2{
 .hkItem{
     display: flex;
     flex-direction: row;
-    border-left: 2px solid rgb(0, 122, 192);
     margin-bottom: 20px;
     margin-left: 5px;
 }
@@ -404,7 +404,6 @@ header a h2{
     .hkItem{
         display: flex;
         flex-direction: row;
-        border-left: 2px solid rgb(0, 122, 192);
         margin-bottom: 10px;
     }
 
