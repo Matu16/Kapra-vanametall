@@ -281,6 +281,12 @@ header a h2{
     margin-top: 20px;
 }
 
+.hkItem-2 img{
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+}
+
 .hkItem{
     display: flex;
     flex-direction: row;
@@ -299,8 +305,43 @@ header a h2{
 }
 
 .hkItem img{
-    object-fit: contain;
-    height: 100px;
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.hkItem-kopa{
+    display: none;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.hkItem-kopa h3{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+
+.hkItem-kopa h4{
+    margin-left: 10%;
+    font-size: large;
+}
+
+.hkItem-kopa div{
+    width: fit-content;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 500px;
+    display: flex;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.hkItem-kopa img{
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
 }
 
 .hkdesc h3{
@@ -366,6 +407,16 @@ header a h2{
 
 .push2 {
     margin-left: -25%;
+}
+
+.maavaradepilt{
+    display: flex;
+}
+
+.maavaradepilt img{
+    object-fit: cover;
+    width: 50px;
+    height: 200px;
 }
 
 @media (min-width: 1024px){
@@ -469,5 +520,12 @@ header a h2{
         display: none;
     }
 
+    .hkItem-kopa{
+    display: flex;
+    }
+
+    .hkItem-kopa-mob{
+        display: none;
+    }
 
 }
