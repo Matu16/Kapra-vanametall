@@ -186,6 +186,7 @@ header a h2{
     flex-direction: column;
     width: 300px;
     margin: 20px;
+    margin-top: 70px;
 }
 
 .contact input{
