@@ -391,23 +391,23 @@ ul {
 }
 
 .section.one {
-  background-image: url(slider_pictures/);
-}
-
-.section.two {
   background-image: url(slider_pictures/romu.jpg);
 }
 
-.section.three {
+.section.two {
   background-image: url(slider_pictures/Danger.jpg);
 }
 
-.section.four {
+.section.three {
   background-image: url(slider_pictures/praht.jpeg);
 }
 
-.section.five {
+.section.four {
   background-image: url(slider_pictures/cat2.jpg);
+}
+
+.section.five {
+  background-image: url(slider_pictures/rekka.jpg);
 }
 
 .section.six {
