@@ -407,7 +407,7 @@ ul {
 }
 
 .section.five {
-  background-image: url(slider_pictures/rekka.jpg);
+  background-image: url(slider_pictures/punane_scania.jpg);
 }
 
 .section.six {
@@ -433,7 +433,13 @@ ul {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: red;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.8);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 2rem;
 }
 
 .section__content__subtitle {
@@ -472,8 +478,9 @@ ul {
 }
 
 .action__btn__primary {
-  background: rgba(255, 0, 0, 0.8);
-  color: white;
+  background: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 .action__btn__secondary {
@@ -493,6 +500,7 @@ ul {
   z-index: 5;
   display: flex;
   justify-content: space-between;
+  background-color: rgba(55, 55, 55, 0.9);
 }
 
 .header__middle {
@@ -521,14 +529,14 @@ ul {
   font-size: 18px;
   font-weight: bold;
   padding: 1rem;
-  color: red;
+  color: rgb(255, 255, 255);
   border-radius: 1.5rem;
   text-transform: capitalize;
   transition: background 0.3s linear;
 }
 
 .header__nav__btn:hover {
-  background: #000000;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .header__nav__btn.menu__btn {
